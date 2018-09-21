@@ -24,9 +24,14 @@ That way you can commit code to your own repository
 as you work through the kata.
 
 ## Kata Concept
-The idea of a kata is to repeat an action so often that it becomes automatic. 
-This means that we repeat an exercise so often that we're able to complete it 
-in minimal time with minimal assistance (from Google, etc.).
+The idea of a kata is to repeat an action so it becomes automatic. 
+This means that we repeat an exercise enough that we're able to complete it 
+in minimal time with minimal assistance.
+
+Once you're satisfied with your performance on a kata,
+move to the next kata. 
+Periodically, perform all katas from 01 onward
+to be sure you're remembering the basic skills.
 
 ## CloudFormation
 CloudFormation is a Infrastructure As Code (IAC) tool within Amazon Web Services (AWS).
@@ -37,9 +42,9 @@ I'm assuming you have a personal or business account
 that you can use to work this kata.
 
 
-You'll need to have CLI credentials.
-
-[How to create CLI credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+You'll need to have 
+[CLI credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+to deploy to AWS.
 
 ## Working the Kata
 Under the kata directory are the kata exercises.
@@ -52,6 +57,13 @@ goal.md -- The objective and concepts to learn.
 solution.json -- One solution for meeting the objectives.
 
 attempt.json -- You create this file
+
+## Steps
+* Review the kata goal
+* Create a new attempt.json
+* Add code to meet the objectives
+* Deploy the template
+
 
 ## First Attempt
 For your first attempt, review the included solution.json CF template file.
@@ -66,14 +78,14 @@ The kata concept is to repeat the exercise until you have coding muscle memory.
 As necessary, refer to solution.json for guidance. 
 As you learn the concepts, refer to AWS resources rather than the solution.json.
 
+## Resources
 [AWS CloudFormation Documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 
-* Create a new ec2-instance.json
-* Add code to meet the objectives
-* Deploy the template
 
 ## Manual Deploy 
+You can deploy the template using this simple command
 
+...
 
 ## Continuous Delivery
 Kata ### shows how to set up a CD pipeline
